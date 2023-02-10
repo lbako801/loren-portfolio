@@ -1,13 +1,16 @@
 import React from 'react'
+import LandingIntro from './LandingIntro'
+import CTA from './CTA'
+import LandingSocials from './LandingSocials'
 import './landing.css'
 
 const Landing = () => {
   return (
     <header>
-      <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>lorenBako</h1>
-        <h5 className="text-light">FULL STACK ENGINEER</h5>
+      <div className="container header-container">
+        <LandingIntro/>
+        <CTA/>
+        <LandingSocials/>
       </div>
     </header>
   )

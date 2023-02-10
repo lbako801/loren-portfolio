@@ -1,0 +1,31 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CTA BUTTONS*/
+
+.cta {
+    justify-content: center;
+    margin-top: 2.5rem;
+    display: flex;
+    margin: 1rem;
+}
+
+/*LANDING PAGE SOCIAL ICON LINKS*/
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom:3rem;
+}
