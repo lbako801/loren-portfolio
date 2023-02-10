@@ -10,7 +10,8 @@ const Landing = () => {
       <div className="container header-container">
         <LandingIntro/>
         <CTA/>
-        <LandingSocials/>
+        {/* <LandingSocials />
+        <p>SCROLL DOWN ></p> */}
       </div>
     </header>
   )

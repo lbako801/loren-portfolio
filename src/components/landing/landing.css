@@ -18,14 +18,11 @@ header {
     justify-content: center;
     margin-top: 2.5rem;
     display: flex;
-    margin: 1rem;
+    margin: 3rem;
 }
 
 /*LANDING PAGE SOCIAL ICON LINKS*/
 
 .social-icons {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    bottom:3rem;
+    
 }
