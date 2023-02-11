@@ -1,28 +1,32 @@
 header {
-    height: 100vh;
+    height:100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header-container {
-    justify-content: center;
-    align-items: center;
+header-container {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-/* CTA BUTTONS*/
+/* STYLING LANDING PAGE BUTTONS*/
 
 .cta {
-    justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 10rem;
     display: flex;
-    margin: 3rem;
+    gap: 10rem;
+    justify-content: center;
 }
 
-/*LANDING PAGE SOCIAL ICON LINKS*/
+/*STYLING SCROLL DOWN TEXT*/
 
-.social-icons {
-    
+p {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.scroll-arrow {
+    color:#49fc03;
+    font-size: 1.5rem;
 }

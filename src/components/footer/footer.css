@@ -1,0 +1,12 @@
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    color: #c1c2c0;
+    margin-left: 1%;
+}

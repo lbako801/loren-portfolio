@@ -3,10 +3,10 @@ import Resume from '../../assets/loren-bako-resume.pdf'
 
 const CTA = () => {
   return (
-      <div>
-          <a href={Resume} target="_blank" rel="noreferrer" className='btn cta'>RESUME</a>
-          <a href='#contact' className='btn cta'>CONTACT</a>
-    </div>
+      <div className='cta'>
+          <a href={Resume} target="_blank" rel="noreferrer" className='btn'>RESUME</a>
+          <a href='#contact' className='btn'>CONTACT</a>
+      </div>
   )
 }
 

@@ -4,10 +4,10 @@ import './landingintro.css'
 const LandingIntro = () => {
   return (
       <div>
-        <h5>Hello I'm...</h5>
+        <h5>Hey there, this is...</h5>
         <h1>Loren Bako &#x2774;</h1>
-        <h2>full stack engineer</h2>
-        <h2>&#x2775;</h2>
+        <h1>full stack engineer</h1>
+        <h1>&#x2775;</h1>
       </div>
   )
 }
