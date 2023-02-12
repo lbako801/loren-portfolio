@@ -26,10 +26,25 @@
 
 .work-card>h3 {
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
 
 .work-card.btn {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-section-title {
+    display: flex;
+    font-size: 2rem;
+    justify-content: flex-start;
+    margin-left: 3rem;
 }

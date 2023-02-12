@@ -1,22 +1,9 @@
-header {
-    height:100vh;
-    padding-top: 7rem;
+#header-container {
+    padding-top: 8rem;
     overflow: hidden;
-}
-
-header-container {
-    text-align: center;
-    height: 100%;
-    position: relative;
-}
-
-/* STYLING LANDING PAGE BUTTONS*/
-
-.cta {
-    margin-top: 10rem;
     display: flex;
-    gap: 10rem;
-    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 /*STYLING SCROLL DOWN TEXT*/
@@ -24,9 +11,11 @@ header-container {
 p {
     text-align: center;
     margin-top: 10rem;
+    font-family: 'source code pro';
 }
 
 .scroll-arrow {
     color:#49fc03;
     font-size: 1.5rem;
+    animation: var(--blinker);
 }

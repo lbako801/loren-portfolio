@@ -1,0 +1,71 @@
+h2 {
+    font-family: 'source code pro';
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+}
+
+.about-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 35% 50%;
+    /* gap: 15%; */
+    border-radius: 50px;
+    background: #131313;
+    box-shadow:  5px 5px 0px #080808,
+                 -5px -5px 0px #1e1e1e;
+}
+
+.about-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    place-items: center;
+}
+
+.image-1 {
+    border-radius: 1rem;
+    transition: var(--transition);
+    border:solid transparent;
+}
+
+.image-1:hover {
+    border-radius: 1.5rem;
+    width: 110%;
+    transition: var(--transition);
+    border: solid var(--color-primary);
+    rotate: -5deg;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about-card {
+    background-color: var(--color-bg-alt);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about-card:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    transition: var(--transition);
+    cursor: default;
+}
+
+.about-card-icon {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-card>h5 {
+    font-size: 0.95rem;
+}
+

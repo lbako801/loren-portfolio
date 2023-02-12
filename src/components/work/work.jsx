@@ -7,55 +7,18 @@ const Work = () => {
     <section id='work'>
       <h5>Wanna see some of my work?</h5>
       <h2>projects</h2>
-
+      <h2 className='project-section-title'>FRONTEND -</h2>
       <div className="container work-container">
         <article className='work-card'>
           <div className='work-img'>
             <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
           </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
+          <h3>THE DATE-A-BASE</h3>
+          <div className='link-btn'>
+          <a href='https://github.com/' className='btn'>CODE</a>
           <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
-        </article>
-        <article className='work-card'>
-          <div className='work-img'>
-            <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
           </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
-          <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
-        </article>
-        <article className='work-card'>
-          <div className='work-img'>
-            <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
-          </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
-          <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
-        </article>
-        <article className='work-card'>
-          <div className='work-img'>
-            <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
-          </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
-          <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
-        </article>
-        <article className='work-card'>
-          <div className='work-img'>
-            <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
-          </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
-          <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
-        </article>
-        <article className='work-card'>
-          <div className='work-img'>
-            <img src={ TDBSS} alt='Screenshot of the Date a Base website.'/>
-          </div>
-          <h3>PROJECT NAME</h3>
-          <a href='https://github.com/' className='btn'>GITHUB</a>
-          <a href='https://github.com/' className='btn' target='_blank' rel='noreferrer'>DEMO</a>
+
         </article>
       </div>
     </section>

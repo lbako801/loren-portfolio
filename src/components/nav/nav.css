@@ -1,0 +1,31 @@
+#nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+nav {
+    text-align: end;
+}
+
+nav>a {
+    text-decoration: none;
+    font-family: 'source code pro';
+    color: var(--color-primary);
+    padding-right: 2rem;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+nav>a:hover {
+    animation: var(--blinker);
+    font-size: 2rem;
+    transition: var(--transition);
+}
+
+nav>a.active{
+    text-decoration: underline;
+    font-size: 200%;
+}

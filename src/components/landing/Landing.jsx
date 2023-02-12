@@ -5,13 +5,13 @@ import './landing.css'
 
 const Landing = () => {
   return (
-    <header>
-      <div className="container header-container">
+    <div id='header-container'>
+      <div>
         <LandingIntro/>
-        <CTA/>
+        <CTA />
+        <p><span className='scroll-arrow arrow-left'>&#x2193;</span> SCROLL DOWN <span className='scroll-arrow '>&#x2193;</span></p>
       </div>
-      <p><span className='scroll-arrow arrow-left'>&#x2193;</span> SCROLL DOWN <span className='scroll-arrow '>&#x2193;</span></p>
-    </header>
+    </div>
   )
 }
 
