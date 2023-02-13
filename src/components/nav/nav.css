@@ -22,11 +22,33 @@ nav>a {
 
 nav>a:hover {
     animation: var(--blinker);
-    font-size: 2rem;
+    font-size: 150%;
     transition: var(--transition);
 }
 
 nav>a.active{
     text-decoration: underline;
-    font-size: 200%;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 1024px) {
+    nav>a {
+        text-decoration: none;
+        font-family: 'source code pro';
+        color: var(--color-primary);
+        padding-right: 2rem;
+        font-size: 0.5rem;
+        transition: var(--transition);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav>a {
+        text-decoration: none;
+        font-family: 'source code pro';
+        color: var(--color-primary);
+        padding-right: 2rem;
+        font-size: 0.8rem;
+        transition: var(--transition);
+    }
 }

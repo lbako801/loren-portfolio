@@ -3,27 +3,22 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { BsGithub } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
+import Resume from '../../assets/loren-bako-resume.pdf'
 import './contact.css'
-
 const Contact = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_j45ll7o', 'template_be3l9mp', form.current, 'ry-gxAoEt6NLgPZO9')
-
     e.target.reset()
-
   };
-
   return (
     <section id='contact'>
       <div className='contact-headers'>
-        <h3>Think I might be the right fit?</h3>
-        <h2>EMAIL ME</h2>
+        <h3>Think I might be the right fit? Take this...</h3>
+        <a href={Resume} rel="noreferrer" target='_blank' className="btn">RESUME</a>
+        <h2>AND EMAIL ME</h2>
       </div>
-
       <div className='container contact-container'>
         <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required></input>
@@ -39,5 +34,4 @@ const Contact = () => {
     </section>
   )
 }
-
 export default Contact
