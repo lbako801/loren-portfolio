@@ -12,6 +12,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 
 }
 
@@ -21,9 +22,9 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-bg);
-    width: 33%;
+    width: 20%;
     border-radius: 2rem;
-    height: 50%;
+    height: 45%;
     padding: 1rem;
     border: 0.1rem solid transparent;
     transition: var(--transition);
@@ -37,7 +38,7 @@
 
 .work-card>h3 {
     font-family: 'Source Code Pro';
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--color-primary);
 }
 
@@ -55,3 +56,4 @@
     padding: 1rem;
     width: 100%;
 }
+

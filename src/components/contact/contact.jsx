@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       <div className='contact-headers'>
-        <h3>Think I might be the right fit? Take this...</h3>
+        <h3>Think I might be the right fit? <br></br>Take this...</h3>
         <a href={Resume} rel="noreferrer" target='_blank' className="btn">RESUME</a>
         <h2>AND EMAIL ME</h2>
       </div>
@@ -34,4 +34,4 @@ const Contact = () => {
     </section>
   )
 }
-export default Contact
+export default Contact 
