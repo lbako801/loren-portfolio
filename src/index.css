@@ -1,3 +1,5 @@
+@import 'normalize.css';
+
 @font-face {
     font-family: "Radiotechnika";
     src: url("./assets/fonts/webfontkit-20230209-185633/radiotechnika-2.0-webfont.woff"), 
@@ -5,18 +7,8 @@
 }
 
 @font-face {
-    font-family: Source Code;
+    font-family: 'Source Code Pro';
     src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
 }
 
 :root {
@@ -35,20 +27,22 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background: var(--color-bg);
-    color: var(--color-secondary);
-    line-height: 1.7;
-    background-image: url(../src/assets/brilliant.png);
-}
-
-section {
-    height: 100vh;
-    padding-top: 1rem;
-}
-
 ::-webkit-scrollbar {
     display: none;
+}
+
+h1,h2 {
+    color: var(--color-primary);
+    font-family: 'Source Code Pro';
+    font-weight: 500;
+}
+
+body {
+    background-color: #131313;
+    background-image: url(./assets/brilliant.png);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .btn {
@@ -56,13 +50,13 @@ section {
     text-align: center;
     display: inline-block;
     color: var(--color-primary);
-    /* margin-top: 20%; */
     padding: .75rem 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     font-family:'Source Code Pro', monospace;
+    background: none;
 }
 
 .btn:hover {
@@ -73,37 +67,10 @@ section {
     font-weight: 700;
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
 @keyframes blinker {  
     50% { opacity: 0; }
 }
 
-/* MEDIA QUERIES (TABLETS/MEDIUM DEVICES)*/
-
-@media screen and (max-width: 1024px) {
-    .container {
-        width:var(--container-width-md)
-    }
-
-    section {
-        margin-top: 6rem;
-    }
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
 }
-
-/* MEDIA QUERIES (PHONES/SMALL DEVICES)*/
-
-@media screen and (max-width: 600px) {
-    .container {
-        width:var(--container-width-sm)
-    }
-
-    section >h2 {
-        margin-bottom: 2rem;
-    }
-}
-

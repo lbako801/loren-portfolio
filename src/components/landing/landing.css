@@ -1,21 +1,38 @@
-#header-container {
-    padding-top: 8rem;
-    overflow: hidden;
+.home-section {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-/*STYLING SCROLL DOWN TEXT*/
+.intro>h2 {
+    color: var(--color-secondary);
+    font-size: 1rem;
+}
+
+.intro>h1 {
+    font-family: 'radiotechnika';
+    font-size: 4rem;
+}
+
+.blink {
+    animation: var(--blinker);
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.cta-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
 
 p {
     text-align: center;
-    margin-top: 10rem;
-    font-family: 'source code pro';
-}
-
-.scroll-arrow {
-    color:#49fc03;
-    font-size: 1.5rem;
-    animation: var(--blinker);
+    font-family: 'Source Code Pro';
+    color: var(--color-secondary);
+    margin-top: 10%;
 }

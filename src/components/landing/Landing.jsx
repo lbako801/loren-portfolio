@@ -1,18 +1,23 @@
-import React from 'react'
-import LandingIntro from './LandingIntro'
-import CTA from './CTA'
-import './landing.css'
+import React from "react";
+import Resume from '../../assets/loren-bako-resume.pdf'
+import "./landing.css";
 
 const Landing = () => {
   return (
-    <div id='header-container'>
-      <div>
-        <LandingIntro/>
-        <CTA />
-        <p><span className='scroll-arrow arrow-left'>&#x2193;</span> SCROLL DOWN <span className='scroll-arrow '>&#x2193;</span></p>
+    <section id="home" className="home-section">
+      <div className="intro">
+        <h2>Hey there, this is <span className="blink">&#8628;</span></h2>
+        <h1>LOREN BAKO &#123;</h1>
+        <h1>&nbsp;&nbsp;FULL STACK ENGINEER</h1>
+        <h1>&#125;</h1>
       </div>
-    </div>
-  )
-}
+      <div className="cta-btns">
+        <a href={Resume} rel="noreferrer" target='_blank' className="btn">RESUME</a>
+        <a href="#contact" className="btn">CONTACT</a>
+      </div>
+      <p><span className="blink">&#8595;</span>&nbsp;SCROLL DOWN&nbsp;<span className="blink">&#8595;</span></p>
+    </section>
+  );
+};
 
-export default Landing
+export default Landing;

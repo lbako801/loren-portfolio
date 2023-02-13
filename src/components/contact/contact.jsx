@@ -1,6 +1,8 @@
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { BsGithub } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 import './contact.css'
 
 const Contact = () => {
@@ -17,23 +19,22 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Want to get in touch?</h5>
-
-      <h2>email me</h2>
+      <div className='contact-headers'>
+        <h3>Think I might be the right fit?</h3>
+        <h2>EMAIL ME</h2>
+      </div>
 
       <div className='container contact-container'>
-
         <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required></input>
-
           <input type='email' name='email' placeholder='Your Email' required></input>
-
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
-
-          <button type='submit' className='contact-btn'>SUBMIT</button>
-
+          <button type='submit' className='btn'>SUBMIT</button>
         </form>
-
+      </div>
+      <div className='contact-socials'>
+        <a href='https://www.linkedin.com/in/loren-bako-5383b1245/' target='_blank' rel='noreferrer' className='social-icons'><BsLinkedin size={42} /></a>
+        <a href='https://github.com/lbako801' className='social-icons' target='_blank' rel='noreferrer'><BsGithub size={42} /></a>
       </div>
     </section>
   )
