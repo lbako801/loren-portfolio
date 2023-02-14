@@ -1,11 +1,6 @@
 @import 'normalize.css';
 
 @font-face {
-    font-family: "Radiotechnika";
-    src: url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
-}
-
-@font-face {
     font-family: 'Source Code Pro';
     src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
 }
