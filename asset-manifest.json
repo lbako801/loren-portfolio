@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.efa4e6f0.css",
-    "main.js": "/static/js/main.dfe0de24.js",
-    "static/media/about-me-img.png": "/static/media/about-me-img.ba91aa404b4451e13adf.png",
-    "static/media/loren-bako-resume.pdf": "/static/media/loren-bako-resume.cee3d627fda237c13cbb.pdf",
-    "static/media/Date-A-Base.png": "/static/media/Date-A-Base.a7928d33f8418da7ef97.png",
-    "static/media/radiotechnika-2.0-webfont.woff": "/static/media/radiotechnika-2.0-webfont.630979d5b765a6ccd759.woff",
-    "index.html": "/index.html",
-    "main.efa4e6f0.css.map": "/static/css/main.efa4e6f0.css.map",
-    "main.dfe0de24.js.map": "/static/js/main.dfe0de24.js.map"
+    "main.css": "/loren-portfolio/static/css/main.da60136a.css",
+    "main.js": "/loren-portfolio/static/js/main.fa2db354.js",
+    "static/media/about-me-img.png": "/loren-portfolio/static/media/about-me-img.ba91aa404b4451e13adf.png",
+    "static/media/loren-bako-resume.pdf": "/loren-portfolio/static/media/loren-bako-resume.cee3d627fda237c13cbb.pdf",
+    "static/media/Date-A-Base.png": "/loren-portfolio/static/media/Date-A-Base.a7928d33f8418da7ef97.png",
+    "static/media/radiotechnika-2.0-webfont.woff": "/loren-portfolio/static/media/radiotechnika-2.0-webfont.630979d5b765a6ccd759.woff",
+    "index.html": "/loren-portfolio/index.html",
+    "main.da60136a.css.map": "/loren-portfolio/static/css/main.da60136a.css.map",
+    "main.fa2db354.js.map": "/loren-portfolio/static/js/main.fa2db354.js.map"
   },
   "entrypoints": [
-    "static/css/main.efa4e6f0.css",
-    "static/js/main.dfe0de24.js"
+    "static/css/main.da60136a.css",
+    "static/js/main.fa2db354.js"
   ]
 }
