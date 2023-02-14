@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: "Radiotechnika";
-    src: url("./assets/fonts/webfontkit-20230209-185633/radiotechnika-2.0-webfont.woff"), 
-    ("./assets/fonts/webfontkit-20230209-185633/radiotechnika-2.0-webfont.woff2");
+    src: url("./assets/fonts/radiotechnika-2.0-webfont.woff"), 
+    ("./assets/fonts/radiotechnika-2.0-webfont.woff2");
 }
 
 @font-face {
@@ -39,7 +39,7 @@ h1,h2 {
 
 body {
     background-color: #131313;
-    background-image: url(./assets/brilliant.png);
+    background-image: url(./assets//images/brilliant.png);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
