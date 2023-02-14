@@ -15,9 +15,9 @@ const Contact = () => {
   return (
     <section id='contact'>
       <div className='contact-headers'>
-        <h3>Think I might be the right fit? <br></br>Take this...</h3>
+        <h3>Take this...</h3>
         <a href={Resume} rel="noreferrer" target='_blank' className="btn">RESUME</a>
-        <h2>AND EMAIL ME</h2>
+        <h2>EMAIL ME</h2>
       </div>
       <div className='container contact-container'>
         <form ref={form} onSubmit={sendEmail}>
@@ -28,8 +28,8 @@ const Contact = () => {
         </form>
       </div>
       <div className='contact-socials'>
-        <a href='https://www.linkedin.com/in/loren-bako-5383b1245/' target='_blank' rel='noreferrer' className='social-icons'><BsLinkedin size={42} /></a>
-        <a href='https://github.com/lbako801' className='social-icons' target='_blank' rel='noreferrer'><BsGithub size={42} /></a>
+        <a href='https://www.linkedin.com/in/loren-bako-5383b1245/' target='_blank' rel='noreferrer' className='social-icons'><BsLinkedin size={30} /></a>
+        <a href='https://github.com/lbako801' className='social-icons' target='_blank' rel='noreferrer'><BsGithub size={30} /></a>
       </div>
     </section>
   )
