@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/loren-portfolio/static/css/main.25cad5b4.css",
-    "main.js": "/loren-portfolio/static/js/main.9c068e9f.js",
+    "main.css": "/loren-portfolio/static/css/main.d4b298f0.css",
+    "main.js": "/loren-portfolio/static/js/main.fa2db354.js",
     "static/media/about-me-img.png": "/loren-portfolio/static/media/about-me-img.ba91aa404b4451e13adf.png",
     "static/media/loren-bako-resume.pdf": "/loren-portfolio/static/media/loren-bako-resume.cee3d627fda237c13cbb.pdf",
     "static/media/Date-A-Base.png": "/loren-portfolio/static/media/Date-A-Base.a7928d33f8418da7ef97.png",
     "index.html": "/loren-portfolio/index.html",
-    "main.25cad5b4.css.map": "/loren-portfolio/static/css/main.25cad5b4.css.map",
-    "main.9c068e9f.js.map": "/loren-portfolio/static/js/main.9c068e9f.js.map"
+    "main.d4b298f0.css.map": "/loren-portfolio/static/css/main.d4b298f0.css.map",
+    "main.fa2db354.js.map": "/loren-portfolio/static/js/main.fa2db354.js.map"
   },
   "entrypoints": [
-    "static/css/main.25cad5b4.css",
-    "static/js/main.9c068e9f.js"
+    "static/css/main.d4b298f0.css",
+    "static/js/main.fa2db354.js"
   ]
 }
