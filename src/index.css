@@ -2,8 +2,7 @@
 
 @font-face {
     font-family: "Radiotechnika";
-    src: url("./assets/fonts/radiotechnika-2.0-webfont.woff"), 
-    ("./assets/fonts/radiotechnika-2.0-webfont.woff2");
+    src: url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
 }
 
 @font-face {
