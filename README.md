@@ -16,6 +16,8 @@ The Loren Portfolio's design draws inspiration from a computer terminal, incorpo
 ## Deployment
 To view this portfolio website, please visit [lorenbako.com](https://lorenbako.com/)
 
+The above is a custom domain hosted through github. If you want the actual github link before redirect, use: [lbako801.github.io/loren-portfolio](lbako801.github.io/loren-portfolio)
+
 ## Screenshot
 Here is a screenshot of the Loren Portfolio:
 
