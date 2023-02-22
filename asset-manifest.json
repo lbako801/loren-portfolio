@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.d4b298f0.css",
-    "main.js": "/static/js/main.29431c27.js",
+    "main.js": "/static/js/main.0189a4f5.js",
     "static/media/about-me-img.png": "/static/media/about-me-img.ba91aa404b4451e13adf.png",
     "static/media/loren-bako-resume.pdf": "/static/media/loren-bako-resume.cee3d627fda237c13cbb.pdf",
     "static/media/Date-A-Base.png": "/static/media/Date-A-Base.a7928d33f8418da7ef97.png",
     "index.html": "/index.html",
     "main.d4b298f0.css.map": "/static/css/main.d4b298f0.css.map",
-    "main.29431c27.js.map": "/static/js/main.29431c27.js.map"
+    "main.0189a4f5.js.map": "/static/js/main.0189a4f5.js.map"
   },
   "entrypoints": [
     "static/css/main.d4b298f0.css",
-    "static/js/main.29431c27.js"
+    "static/js/main.0189a4f5.js"
   ]
 }
