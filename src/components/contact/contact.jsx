@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { BsGithub } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
-import Resume from '../../assets/loren-bako-resume.pdf'
+import Resume from '../../assets/resume.pdf'
 import './contact.css'
 const Contact = () => {
   const form = useRef();
