@@ -12,17 +12,22 @@ const About = () => {
 
         <div className="about-info-container">
           <p className="about-info">
-            <span className="line-break">>></span> I'm a full-stack developer who
-            combines tech skills with UI/UX design. I'm based in SLC and have
-            worked on web dev projects, ERPs, and finance applications.<br></br>
+            <span className="line-break">\></span> I'm a full- stack developer
+            who specializes in the manufacturing industry. I'm based in SLC and
+            have worked on web dev projects, ERPs, finance applications, and
+            data warehouses.
             <br></br>
-            <span className="line-break">>></span> My front-end expertise
+            <br></br>
+            <span className="line-break">\></span> My front-end expertise
             includes HTML, CSS, JS, and React. I'm also skilled in backend and
-            database programming with PHP, Node.js, MySQL, SQL Server MongoDB, and PostgreSQL. I also work extensively with the Microsoft Dynamics ecosystem and have experience programming in AL for BC.
+            database programming with PHP, Node.js, MySQL, SQL Server, MongoDB,
+            and PostgreSQL. I also work extensively with the Microsoft Dynamics
+            ecosystem and have experience programming in AL for BC.
             <br></br>
             <br></br>
-            <span className="line-break">>></span> In my free time, I'm a
-            vintage tech fan, motorcycle lover, Warhammer 40K nerd and a dungeon master for D&D.
+            <span className="line-break">\></span> In my free time I'm a vintage
+            tech fan, motorcycle lover, Warhammer 40K nerd and a dungeon master
+            for D&D.
           </p>
         </div>
       </div>

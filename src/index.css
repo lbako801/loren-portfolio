@@ -54,6 +54,7 @@ body {
     font-family:'Source Code Pro', monospace;
     background: none;
     text-decoration: none;
+    margin: 1em;
 }
 
 .btn:hover {
