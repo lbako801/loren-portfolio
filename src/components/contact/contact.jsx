@@ -3,6 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import Resume from "../../assets/resume.pdf";
 import "./contact.css";
+
 const Contact = () => {
   return (
     <section id="contact">
@@ -17,7 +18,7 @@ const Contact = () => {
           target="_blank"
           className="btn"
         >
-          EMAIL ME
+          LOREN@LORENBAKO.COM
         </a>
       </div>
       <div className="contact-socials">
@@ -41,4 +42,5 @@ const Contact = () => {
     </section>
   );
 };
+
 export default Contact;

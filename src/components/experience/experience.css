@@ -1,0 +1,435 @@
+.experience-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.experience-section h2 {
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.experience-section h3 {
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.skill-category {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+
+.skill-category h4 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* Timeline Styles */
+.timeline-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: var(--color-primary);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline-item {
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--color-primary);
+    transform: translateX(-50%);
+    opacity: 0.3;
+}
+
+/* Add arrows to the timeline line */
+.timeline-line::before,
+.timeline-line::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    transform: translateX(-50%);
+}
+
+.timeline-line::before {
+    top: 0;
+    border-top: 8px solid var(--color-primary);
+}
+
+.timeline-line::after {
+    bottom: 0;
+    border-bottom: 8px solid var(--color-primary);
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px var(--color-primary);
+    transition: var(--transition);
+    z-index: 2;
+}
+
+/* Add year display next to dots */
+.timeline-dot::after {
+    content: attr(data-year);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    white-space: nowrap;
+    opacity: 0.8;
+    transition: var(--transition);
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Years for left side items */
+.timeline-item:nth-child(odd) .timeline-dot::after {
+    right: 30px;
+}
+
+/* Years for right side items */
+.timeline-item:nth-child(even) .timeline-dot::after {
+    left: 30px;
+}
+
+.timeline-content {
+    position: relative;
+    width: 40%;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    transition: var(--transition);
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0 var(--color-primary);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    margin-left: auto;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    margin-right: auto;
+}
+
+.timeline-content h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.timeline-content h4 {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.timeline-content h5 {
+    color: var(--color-secondary);
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.timeline-content p {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.expanded-details {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    font-family: 'Source Code Pro', monospace;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.expanded-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expanded-details li {
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.expanded-details li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--color-secondary);
+}
+
+/* Hover Effects */
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--color-primary);
+}
+
+.timeline-content:hover .timeline-dot {
+    transform: translateX(-50%) scale(1.5);
+    box-shadow: 0 0 25px var(--color-primary);
+}
+
+.timeline-content:hover .expanded-details {
+    max-height: 500px;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-primary);
+    opacity: 1;
+}
+
+.timeline-content:hover ~ .timeline-item .timeline-content {
+    opacity: 0.4;
+    filter: blur(1px);
+    transform: scale(0.98);
+}
+
+/* Remove text hover effects */
+.timeline-content:hover h3,
+.timeline-content:hover h4,
+.timeline-content:hover h5,
+.timeline-content:hover p {
+    text-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-section {
+        padding: 1rem 0;
+    }
+
+    .experience-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .timeline-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .timeline-container::after {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: 80%;
+        margin-left: 40px !important;
+        margin-right: 0 !important;
+    }
+
+    .timeline-content h3 {
+        display: none;
+    }
+
+    .timeline-dot {
+        left: 20px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .timeline-content h4 {
+        font-size: 1rem;
+    }
+
+    .timeline-content h5 {
+        font-size: 0.9rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+
+    .expanded-details li {
+        font-size: 0.9rem;
+        padding-left: 1.2rem;
+    }
+
+    .timeline-line {
+        left: 35px;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-dot::after,
+    .timeline-item:nth-child(even) .timeline-dot::after {
+        left: 25px;
+    }
+
+    .timeline-line::before,
+    .timeline-line::after {
+        left: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .timeline-container {
+        padding: 0;
+    }
+
+    .timeline-content {
+        width: 70%;
+        margin-left: 35px !important;
+        margin-right: 0 !important;
+    }
+
+    .timeline-content h3 {
+        display: none !important;
+    }
+
+    .timeline-dot {
+        left: 15px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.9rem;
+    }
+
+    .timeline-content h5 {
+        font-size: 0.8rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.8rem;
+    }
+
+    .expanded-details li {
+        font-size: 0.8rem;
+        padding-left: 1rem;
+    }
+
+    .timeline-line {
+        left: 30px;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-dot::after,
+    .timeline-item:nth-child(even) .timeline-dot::after {
+        left: 20px;
+    }
+
+    .timeline-line::before,
+    .timeline-line::after {
+        left: 30px;
+    }
+
+    .year {
+        display: none !important;
+    }
+
+    .timeline-dot::before {
+        display: none !important;
+    }
+
+    .timeline-dot[data-year]::after {
+        display: none !important;
+    }
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: transparent;
+    color: var(--color-primary);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    border: 1px solid var(--color-primary);
+}
+
+.tech-tag:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--color-primary);
+    background: var(--color-primary);
+    color: var(--color-white);
+} 

@@ -14,7 +14,8 @@ const Landing = () => {
         <h1>&#125;</h1>
       </div>
       <p>
-        <span className="blink">&#8595;</span>&nbsp;SCROLL DOWN&nbsp;
+        <span className="blink">&#8595;</span>
+        &nbsp;SCROLL DOWN&nbsp;
         <span className="blink">&#8595;</span>
       </p>
     </section>
