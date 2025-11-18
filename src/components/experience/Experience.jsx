@@ -5,20 +5,22 @@ const Experience = () => {
     const experiences = [
         {
             year: '2025-NOW',
-            title: 'Systems Manager',
+            title: 'Systems Director',
             company: '@ AMC Acquisitions Group',
             description: 'Leading the development and implementation of business systems, focusing on process optimization and digital transformation.',
             details: [
                 'Manage all software for the group.',
                 'Lead Business Central implementations and develop internal tools',
-                'Digitize and modernize business processes'
+                'Digitize and modernize business processes',
+                'Created modular SaaS with a custom CAD kernel',
+                'Planned, architected and executed all digital transformations from legacy manufacturing systems'
             ]
         },
         {
             year: '2023-2025',
             title: 'Application Specialist/Developer',
             company: '@ Gerflor',
-            description: 'Sole North American developer at Gerflor Group, handling all development tasks. Also helped with IT support and training.',
+            description: 'Sole North American software engineer at Gerflor Group, handling all development tasks. Also helped with IT support and training.',
             details: [
                 'Full-stack experience with proprietary PHP framework and SQL databases (2000+)',
                 'Built financial tools with SWIFT integration; maintained legacy VB and ERP systems',
@@ -33,10 +35,9 @@ const Experience = () => {
             year: '2006...ish',
             title: "The Beginning",
             // company: 'Myself',
-            description: 'Started early at 8 years old with an internet connection, too much free time, and no supervision. Learned Lua by modifying Garry\'s Mod and built HTML/CSS pages for users on GaiaOnline.',
+            description: 'Started early at 8 years old with an internet connection, too much free time, and no supervision. Learned Lua by modifying Garry\'s Mod and built HTML/CSS pages for users on GaiaOnline and other similar forums.',
             details: [
-                'Created underwhelming mods with overwhelming confidence',
-                'Traded GaiaOnline profile layouts for in-game currency... no regrets',
+                "Broke my dad's windows install through experimentation.",
             ]  
         },
     ];
