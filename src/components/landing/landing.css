@@ -43,7 +43,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .intro>h1 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 

@@ -48,7 +48,7 @@ const Nav = () => {
       <nav>
         <a href='#home' onClick={(e) => handleNavClick(e, '#home')} className={activeNav === '#home' ? 'active': ''}>HOME</a>
         <a href='#about' onClick={(e) => handleNavClick(e, '#about')} className={activeNav === '#about' ? 'active': ''}>ABOUT</a>
-        <a href='#experience' onClick={(e) => handleNavClick(e, '#experience')} className={activeNav === '#experience' ? 'active': ''}>EXPERIENCE</a>
+        <a href='#experience' onClick={(e) => handleNavClick(e, '#experience')} className={activeNav === '#experience' ? 'active': ''}>EXP</a>
         {/* <a href='#work' onClick={(e) => handleNavClick(e, '#work')} className={activeNav === '#work' ? 'active': ''}>WORK(under const)</a> */}
         <a href='#contact' onClick={(e) => handleNavClick(e, '#contact')} className={activeNav === '#contact' ? 'active': ''}>CONTACT</a>
       </nav>

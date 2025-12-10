@@ -24,21 +24,23 @@
 .image-1 {
     width: 100%;
     border-radius: 2rem;
-    border: solid transparent;
+    border: 0.3rem solid transparent;
     transition: var(--transition);
+    transform-origin: center center;
+    box-sizing: border-box;
 }
 
 .image-wrapper:hover .image-1 {
     transition: var(--transition);
     transform: rotate(-5deg);
-    border: 0.3rem solid var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .about-info-container {
     text-align: left;
     width: 50%;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -87,8 +89,8 @@
 
 @media screen and (max-width: 600px) {
     .about-info {
-        font-size: 0.65rem;
-        line-height: 1.25rem;
+        font-size: 0.6rem;
+        line-height: 1rem;
       }
     
     .image-wrapper {
@@ -104,7 +106,7 @@
     }
 
     .about-info-container {
-        width: 90%;
+        width: 100%;
     }
 
     .about-info-container .about-section {
