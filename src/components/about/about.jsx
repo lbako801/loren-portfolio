@@ -15,20 +15,18 @@ const About = () => {
         <div className="about-info-container">
           <div className="about-section">
             <p className="about-info">
-              <span className="line-break">{'>'}</span> I'm a full- stack developer
-              who specializes in the manufacturing industry. I'm based in SLC and
-              have worked on web dev projects, ERPs, finance applications, and
-              data warehouses.
+              <span className="line-break">{'>'}</span> I'm a full-stack developer focused on the manufacturing world. 
+              Based in SLC, I’ve built everything from web apps to ERP extensions, financial tools, and data-warehouse systems. 
+              I have a habit of delivering software people swear “can’t be done.”
             </p>
           </div>
 
           <div className="about-section">
             <p className="about-info">
-              <span className="line-break">{'>'}</span> My front-end expertise
-              includes HTML, CSS, JS, and React. I'm also skilled in backend and
-              database programming with PHP, Node.js, MySQL, SQL Server, MongoDB,
-              and PostgreSQL. I also work extensively with the Microsoft Dynamics
-              ecosystem and have experience programming in AL for BC.
+              <span className="line-break">{'>'}</span> On the front end, I work with HTML, CSS, JavaScript, and React. 
+              On the backend, I build with PHP, Node.js, MySQL, SQL Server, MongoDB, and PostgreSQL. 
+              I also work heavily in the Microsoft Dynamics ecosystem, including AL development for Business Central. Lately, 
+              I’ve been customizing a CAD kernel for a SaaS platform built for aerospace plating.
             </p>
           </div>
 

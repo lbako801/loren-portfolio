@@ -275,7 +275,8 @@
 .timeline-content:hover h3,
 .timeline-content:hover h4,
 .timeline-content:hover h5,
-.timeline-content:hover p {
+.timeline-content:hover p,
+.timeline-content:hover .expanded-details li {
     text-shadow: none;
 }
 

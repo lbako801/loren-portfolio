@@ -13,12 +13,12 @@ const Contact = () => {
           RESUME
         </a>
         <a
-          href="mailto:loren@lorenbako.com"
+          href="mailto:loren@kilnsoft.com"
           rel="noreferrer"
           target="_blank"
           className="btn"
         >
-          LOREN@LORENBAKO.COM
+          LOREN@KILNSOFT.COM
         </a>
       </div>
       <div className="contact-socials">

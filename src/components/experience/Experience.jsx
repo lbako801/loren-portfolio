@@ -3,6 +3,7 @@ import './experience.css';
 
 const Experience = () => {
     const experiences = [
+
         {
             year: '2025-NOW',
             title: 'Systems Director',
@@ -14,6 +15,16 @@ const Experience = () => {
                 'Digitize and modernize business processes',
                 'Created modular SaaS with a custom CAD kernel',
                 'Planned, architected and executed all digital transformations from legacy manufacturing systems'
+            ]
+        },
+        {
+            year: 'On the side...',
+            title: 'Founder',
+            company: '@ KILNSOFT.COM',
+            description: 'Founder of KILNSOFT, a software development company that specializes in creating custom software solutions for businesses.',
+            details: [
+                'Create custom software solutions for businesses.',
+                'Developed custom software in the pharmaceutical and precision manufacturing industries.'
             ]
         },
         {
@@ -38,7 +49,7 @@ const Experience = () => {
             description: 'Started early at 8 years old with an internet connection, too much free time, and no supervision. Learned Lua by modifying Garry\'s Mod and built HTML/CSS pages for users on GaiaOnline and other similar forums.',
             details: [
                 "Broke my dad's windows install through experimentation.",
-            ]  
+            ]
         },
     ];
 
