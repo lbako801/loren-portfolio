@@ -4,6 +4,7 @@ import Nav from "./components/nav/Nav";
 import About from "./components/about/about";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/contact";
+import Mask from "./components/mask/Mask";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div className="scanline"></div>
       <div className="vignette"></div>
       <div className="color-convergence"></div>
+      <Mask />
       <Nav />
       <Landing />
       <About />

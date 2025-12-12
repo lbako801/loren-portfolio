@@ -3,12 +3,14 @@
     justify-content: flex-end;
     position: fixed;
     width: 100%;
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     gap: 1rem;
 }
 
 nav {
     text-align: flex-end;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 nav>a {
