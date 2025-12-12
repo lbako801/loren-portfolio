@@ -306,7 +306,8 @@
     }
 
     .timeline-content h3 {
-        display: none;
+        display: block;
+        font-size: 1.2rem;
     }
 
     .timeline-dot {
@@ -359,7 +360,8 @@
     }
 
     .timeline-content h3 {
-        display: none !important;
+        display: block !important;
+        font-size: 1rem;
     }
 
     .timeline-dot {

@@ -32,8 +32,7 @@ const About = () => {
 
           <div className="about-section">
             <p className="about-info">
-              <span className="line-break">{'>'}</span> In my free time I'm a vintage
-              tech fan, motorcycle lover, Warhammer 40K nerd and a bad DM.
+              <span className="line-break">{'>'}</span> In my free time I'm a vintage tech fan, motorcycle lover, Warhammer 40K nerd and a bad DM.
             </p>
           </div>
         </div>
